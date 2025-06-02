@@ -11,7 +11,7 @@ function ListaDeJogadores() {
     useEffect(() => {
         const carregarJogadores = async () => {
             try {
-                const response = await axios.get('http://localhost:8080/jogadores')
+                const response = await axios.get('https://deploy-jogadores-backend.onrender.com/jogadores')
                 setJogadores(response.data)
             } catch (error) {
                 alert('Erro ao buscar jogadores: ', error)
