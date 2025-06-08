@@ -88,7 +88,7 @@ function FormularioCadastro() {
                     <option value="GOLEIRO">Goleiro</option>
                     <option value="LATERAL_DIREITO">Lateral Direito</option>
                     <option value="LATERAL_ESQUERDO">Lateral Esquerdo</option>
-                    <option value="LATERAL_DIREITO">Lateral Direito</option>
+                    <option value="ZAGUEIRO">Zagueiro</option>
                     <option value="VOLANTE">Volante</option>
                     <option value="ATACANTE">Atacante</option>
                 </select>
